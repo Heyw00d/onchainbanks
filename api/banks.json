@@ -1,0 +1,1467 @@
+{
+  "lastUpdated": "2026-02-03",
+  "count": 89,
+  "banks": [
+    {
+      "name": "Crypto.com",
+      "slug": "crypto-com",
+      "network": "Visa",
+      "chain": "Cronos",
+      "custody": "Custodial",
+      "cashback": "1-8%",
+      "annualFee": "$0-$4.99/mo",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "global"
+      ],
+      "website": "https://crypto.com/cards",
+      "spendbaseUrl": "https://spendbase.cards/card/crypto-com/"
+    },
+    {
+      "name": "Coinbase",
+      "slug": "coinbase",
+      "network": "Visa",
+      "chain": "Base",
+      "custody": "Custodial",
+      "cashback": "1-4%",
+      "annualFee": "$0",
+      "fxFee": "2.49%",
+      "category": "cryptoNative",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://www.coinbase.com/card",
+      "spendbaseUrl": "https://spendbase.cards/card/coinbase/"
+    },
+    {
+      "name": "MetaMask Card",
+      "slug": "metamask-card",
+      "network": "Mastercard",
+      "chain": "Linea",
+      "custody": "Non-Custodial",
+      "cashback": "1%",
+      "annualFee": "$0 / $199",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "global",
+        "americas",
+        "europe"
+      ],
+      "website": "https://portfolio.metamask.io/card",
+      "spendbaseUrl": "https://spendbase.cards/card/metamask-card/"
+    },
+    {
+      "name": "Ether.fi Cash",
+      "slug": "ether-fi-cash",
+      "network": "Visa",
+      "chain": "Scroll",
+      "custody": "Non-Custodial",
+      "cashback": "4.08%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "global",
+        "americas",
+        "europe"
+      ],
+      "website": "https://app.ether.fi/cash",
+      "spendbaseUrl": "https://spendbase.cards/card/ether-fi-cash/"
+    },
+    {
+      "name": "Gnosis Pay",
+      "slug": "gnosis-pay",
+      "network": "Visa",
+      "chain": "Gnosis",
+      "custody": "Non-Custodial",
+      "cashback": "1-5%",
+      "annualFee": "€30 issuance",
+      "fxFee": "~1.5%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://gnosispay.com",
+      "spendbaseUrl": "https://spendbase.cards/card/gnosis-pay/"
+    },
+    {
+      "name": "Nexo",
+      "slug": "nexo",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "0.5-2%",
+      "annualFee": "$0",
+      "fxFee": "0-0.5%",
+      "category": "cryptoNative",
+      "regions": [
+        "global",
+        "europe"
+      ],
+      "website": "https://platform.nexo.com/register",
+      "spendbaseUrl": "https://spendbase.cards/card/nexo/"
+    },
+    {
+      "name": "Plutus",
+      "slug": "plutus",
+      "network": "Visa",
+      "chain": "Base",
+      "custody": "Non-Custodial",
+      "cashback": "3-9%",
+      "annualFee": "$0-€14.99/mo",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://www.plutus.it/money",
+      "spendbaseUrl": "https://spendbase.cards/card/plutus/"
+    },
+    {
+      "name": "Bybit",
+      "slug": "bybit",
+      "network": "Mastercard",
+      "chain": "Exchange",
+      "custody": "Custodial",
+      "cashback": "2-10%",
+      "annualFee": "€10",
+      "fxFee": "0.9%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe",
+        "apac"
+      ],
+      "website": "https://www.bybit.com/en/bybit-card",
+      "spendbaseUrl": "https://spendbase.cards/card/bybit/"
+    },
+    {
+      "name": "Krak Card",
+      "slug": "krak-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "1%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://www.kraken.com/krak/card",
+      "spendbaseUrl": "https://spendbase.cards/card/krak-card/"
+    },
+    {
+      "name": "Fold",
+      "slug": "fold",
+      "network": "Visa",
+      "chain": "Bitcoin",
+      "custody": "Custodial",
+      "cashback": "Up to 15%",
+      "annualFee": "$0 / $100",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://foldapp.com",
+      "spendbaseUrl": "https://spendbase.cards/card/fold/"
+    },
+    {
+      "name": "WhiteBIT Nova",
+      "slug": "whitebit-nova",
+      "network": "Visa",
+      "chain": "Exchange",
+      "custody": "Custodial",
+      "cashback": "Up to 10%",
+      "annualFee": "$0",
+      "fxFee": "Varies",
+      "category": "cryptoNative",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://whitebit.com/nova",
+      "spendbaseUrl": "https://spendbase.cards/card/whitebit-nova/"
+    },
+    {
+      "name": "Uphold",
+      "slug": "uphold",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "2-4%",
+      "annualFee": "$0",
+      "fxFee": "Varies",
+      "category": "cryptoNative",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://uphold.com/en-us/debit-card",
+      "spendbaseUrl": "https://spendbase.cards/card/uphold/"
+    },
+    {
+      "name": "BitPay",
+      "slug": "bitpay",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "0%",
+      "annualFee": "$0",
+      "fxFee": "2%",
+      "category": "cryptoNative",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://bitpay.com/card",
+      "spendbaseUrl": "https://spendbase.cards/card/bitpay/"
+    },
+    {
+      "name": "Binance Card",
+      "slug": "binance-card",
+      "network": "Visa",
+      "chain": "BNB Chain",
+      "custody": "Custodial",
+      "cashback": "Up to 8%",
+      "annualFee": "$0",
+      "fxFee": "0.9%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe",
+        "apac",
+        "latam"
+      ],
+      "website": "https://www.binance.com/en/cards",
+      "spendbaseUrl": "https://spendbase.cards/card/binance-card/"
+    },
+    {
+      "name": "OKX Card",
+      "slug": "okx-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 20%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://www.okx.com/okxpay",
+      "spendbaseUrl": "https://spendbase.cards/card/okx-card/"
+    },
+    {
+      "name": "Jupiter Card",
+      "slug": "jupiter-card",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "global"
+      ],
+      "website": "https://jup.ag",
+      "spendbaseUrl": "https://spendbase.cards/card/jupiter-card/"
+    },
+    {
+      "name": "Solayer Emerald",
+      "slug": "solayer-emerald",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "2-4%",
+      "annualFee": "$75",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://solayer.org/product/card",
+      "spendbaseUrl": "https://spendbase.cards/card/solayer-emerald/"
+    },
+    {
+      "name": "KAST K Card",
+      "slug": "kast-k-card",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "2-6%",
+      "annualFee": "$20/year",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global",
+        "latam",
+        "argentina"
+      ],
+      "website": "https://www.kast.xyz/",
+      "spendbaseUrl": "https://spendbase.cards/card/kast-k-card/"
+    },
+    {
+      "name": "KAST X Card",
+      "slug": "kast-x-card",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "5-12%",
+      "annualFee": "$1,000/year",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global",
+        "latam",
+        "argentina"
+      ],
+      "website": "https://www.kast.xyz/",
+      "spendbaseUrl": "https://spendbase.cards/card/kast-x-card/"
+    },
+    {
+      "name": "KAST Founders",
+      "slug": "kast-founders",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "Up to 15%",
+      "annualFee": "$10,000 one-time",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global",
+        "latam",
+        "argentina"
+      ],
+      "website": "https://www.kast.xyz/",
+      "spendbaseUrl": "https://spendbase.cards/card/kast-founders/"
+    },
+    {
+      "name": "Ready",
+      "slug": "ready",
+      "network": "Mastercard",
+      "chain": "Starknet",
+      "custody": "Non-Custodial",
+      "cashback": "0.5-3%",
+      "annualFee": "$0 / $120",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global",
+        "latam",
+        "india"
+      ],
+      "website": "https://www.ready.co/card",
+      "spendbaseUrl": "https://spendbase.cards/card/ready/"
+    },
+    {
+      "name": "Avici",
+      "slug": "avici",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "1.5-2%",
+      "annualFee": "$0",
+      "fxFee": "0-3%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://avici.money",
+      "spendbaseUrl": "https://spendbase.cards/card/avici/"
+    },
+    {
+      "name": "Phantom Card",
+      "slug": "phantom-card",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "2%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "americas",
+        "global"
+      ],
+      "website": "https://phantom.app",
+      "spendbaseUrl": "https://spendbase.cards/card/phantom-card/"
+    },
+    {
+      "name": "Solflare",
+      "slug": "solflare",
+      "network": "Mastercard",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://solflare.com/card",
+      "spendbaseUrl": "https://spendbase.cards/card/solflare/"
+    },
+    {
+      "name": "Holyheld",
+      "slug": "holyheld",
+      "network": "Mastercard",
+      "chain": "14 chains",
+      "custody": "Non-Custodial",
+      "cashback": "0.5-1%",
+      "annualFee": "€29-€199",
+      "fxFee": "2.5%",
+      "category": "onchain",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://holyheld.com",
+      "spendbaseUrl": "https://spendbase.cards/card/holyheld/"
+    },
+    {
+      "name": "Kosh",
+      "slug": "kosh",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://kosh.money",
+      "spendbaseUrl": "https://spendbase.cards/card/kosh/"
+    },
+    {
+      "name": "Bleap",
+      "slug": "bleap",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "2%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://bleap.finance",
+      "spendbaseUrl": "https://spendbase.cards/card/bleap/"
+    },
+    {
+      "name": "Redotpay",
+      "slug": "redotpay",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "1%",
+      "annualFee": "$0",
+      "fxFee": "1.2%",
+      "category": "onchain",
+      "regions": [
+        "apac",
+        "global",
+        "latam"
+      ],
+      "website": "https://www.redotpay.com",
+      "spendbaseUrl": "https://spendbase.cards/card/redotpay/"
+    },
+    {
+      "name": "Tria",
+      "slug": "tria",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://app.tria.so/",
+      "spendbaseUrl": "https://spendbase.cards/card/tria/"
+    },
+    {
+      "name": "Kontigo",
+      "slug": "kontigo",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://kontigo.io",
+      "spendbaseUrl": "https://spendbase.cards/card/kontigo/"
+    },
+    {
+      "name": "OrbitX Neo",
+      "slug": "orbitx-neo",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "$12/year",
+      "fxFee": "2%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://orbitx.finance",
+      "spendbaseUrl": "https://spendbase.cards/card/orbitx-neo/"
+    },
+    {
+      "name": "OrbitX Lux",
+      "slug": "orbitx-lux",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "$30/year",
+      "fxFee": "1%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://orbitx.finance",
+      "spendbaseUrl": "https://spendbase.cards/card/orbitx-lux/"
+    },
+    {
+      "name": "Gemini",
+      "slug": "gemini",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "3%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://www.gemini.com/credit-card",
+      "spendbaseUrl": "https://spendbase.cards/card/gemini/"
+    },
+    {
+      "name": "Bitget Card",
+      "slug": "bitget-card",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 4%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.bitget.com/cards",
+      "spendbaseUrl": "https://spendbase.cards/card/bitget-card/"
+    },
+    {
+      "name": "Bitget Premier",
+      "slug": "bitget-premier",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 8%",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.bitget.com/cards/premier",
+      "spendbaseUrl": "https://spendbase.cards/card/bitget-premier/"
+    },
+    {
+      "name": "COCA",
+      "slug": "coca",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.coca.xyz/",
+      "spendbaseUrl": "https://spendbase.cards/card/coca/"
+    },
+    {
+      "name": "Brighty",
+      "slug": "brighty",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "fintech",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://brighty.app",
+      "spendbaseUrl": "https://spendbase.cards/card/brighty/"
+    },
+    {
+      "name": "Cypher",
+      "slug": "cypher",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://cypher.com",
+      "spendbaseUrl": "https://spendbase.cards/card/cypher/"
+    },
+    {
+      "name": "Wayex",
+      "slug": "wayex",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "apac"
+      ],
+      "website": "https://www.wayex.com/en-US/card/",
+      "spendbaseUrl": "https://spendbase.cards/card/wayex/"
+    },
+    {
+      "name": "Bitpanda",
+      "slug": "bitpanda",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "2%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://www.bitpanda.com/en/bitpanda-card",
+      "spendbaseUrl": "https://spendbase.cards/card/bitpanda/"
+    },
+    {
+      "name": "Volet",
+      "slug": "volet",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "exchange",
+      "regions": [
+        "global"
+      ],
+      "website": "https://volet.com",
+      "spendbaseUrl": "https://spendbase.cards/card/volet/"
+    },
+    {
+      "name": "KuCoin Card",
+      "slug": "kucoin-card",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 3%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://www.kucoin.com/kucard",
+      "spendbaseUrl": "https://spendbase.cards/card/kucoin-card/"
+    },
+    {
+      "name": "Gate Card",
+      "slug": "gate-card",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "1-7%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://www.gate.com/card",
+      "spendbaseUrl": "https://spendbase.cards/card/gate-card/"
+    },
+    {
+      "name": "CoinJar Card",
+      "slug": "coinjar-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Reward Points",
+      "annualFee": "$0",
+      "fxFee": "2.99%",
+      "category": "exchange",
+      "regions": [
+        "apac"
+      ],
+      "website": "https://www.coinjar.com/au/card",
+      "spendbaseUrl": "https://spendbase.cards/card/coinjar-card/"
+    },
+    {
+      "name": "Zypto",
+      "slug": "zypto",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "fintech",
+      "regions": [
+        "global"
+      ],
+      "website": "https://zypto.com",
+      "spendbaseUrl": "https://spendbase.cards/card/zypto/"
+    },
+    {
+      "name": "Ledger",
+      "slug": "ledger",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://www.ledger.com",
+      "spendbaseUrl": "https://spendbase.cards/card/ledger/"
+    },
+    {
+      "name": "Tuyo",
+      "slug": "tuyo",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "fintech",
+      "regions": [
+        "latam"
+      ],
+      "website": "https://tuyo.io",
+      "spendbaseUrl": "https://spendbase.cards/card/tuyo/"
+    },
+    {
+      "name": "Oobit",
+      "slug": "oobit",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "fintech",
+      "regions": [
+        "global"
+      ],
+      "website": "https://oobit.com",
+      "spendbaseUrl": "https://spendbase.cards/card/oobit/"
+    },
+    {
+      "name": "Deblock",
+      "slug": "deblock",
+      "network": "Visa",
+      "chain": "Ethereum",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://deblock.com",
+      "spendbaseUrl": "https://spendbase.cards/card/deblock/"
+    },
+    {
+      "name": "TapX",
+      "slug": "tapx",
+      "network": "Visa/Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "fintech",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.tapxcard.io/",
+      "spendbaseUrl": "https://spendbase.cards/card/tapx/"
+    },
+    {
+      "name": "Fiat24",
+      "slug": "fiat24",
+      "network": "Mastercard",
+      "chain": "Arbitrum",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://fiat24.com",
+      "spendbaseUrl": "https://spendbase.cards/card/fiat24/"
+    },
+    {
+      "name": "THORWallet",
+      "slug": "thorwallet",
+      "network": "Mastercard",
+      "chain": "THORChain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://thorwallet.org",
+      "spendbaseUrl": "https://spendbase.cards/card/thorwallet/"
+    },
+    {
+      "name": "SafePal",
+      "slug": "safepal",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.safepal.com",
+      "spendbaseUrl": "https://spendbase.cards/card/safepal/"
+    },
+    {
+      "name": "UR",
+      "slug": "ur",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://ur.io",
+      "spendbaseUrl": "https://spendbase.cards/card/ur/"
+    },
+    {
+      "name": "imToken",
+      "slug": "imtoken",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "apac",
+        "global"
+      ],
+      "website": "https://token.im",
+      "spendbaseUrl": "https://spendbase.cards/card/imtoken/"
+    },
+    {
+      "name": "TokenPocket",
+      "slug": "tokenpocket",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "apac",
+        "global"
+      ],
+      "website": "https://card.tokenpocket.pro/?locale=en#/",
+      "spendbaseUrl": "https://spendbase.cards/card/tokenpocket/"
+    },
+    {
+      "name": "Solcard",
+      "slug": "solcard",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://app.solcard.cc/register?_gl=1*1optia0*_gcl_au*MTczNzcwMzUyMi4xNzY5MDQwNzg3",
+      "spendbaseUrl": "https://spendbase.cards/card/solcard/"
+    },
+    {
+      "name": "Tangem",
+      "slug": "tangem",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://tangem.com",
+      "spendbaseUrl": "https://spendbase.cards/card/tangem/"
+    },
+    {
+      "name": "Exa",
+      "slug": "exa",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://exa.io",
+      "spendbaseUrl": "https://spendbase.cards/card/exa/"
+    },
+    {
+      "name": "Xapo",
+      "slug": "xapo",
+      "network": "Mastercard",
+      "chain": "Bitcoin",
+      "custody": "Custodial",
+      "cashback": "1%",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://xapo.com",
+      "spendbaseUrl": "https://spendbase.cards/card/xapo/"
+    },
+    {
+      "name": "Avalanche Card",
+      "slug": "avalanche-card",
+      "network": "Visa",
+      "chain": "Avalanche",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.avalanchecard.com/",
+      "spendbaseUrl": "https://spendbase.cards/card/avalanche-card/"
+    },
+    {
+      "name": "Hana Wallet",
+      "slug": "hana-wallet",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "apac",
+        "global"
+      ],
+      "website": "https://hanawallet.io",
+      "spendbaseUrl": "https://spendbase.cards/card/hana-wallet/"
+    },
+    {
+      "name": "Offramp",
+      "slug": "offramp",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.offramp.xyz/cards",
+      "spendbaseUrl": "https://spendbase.cards/card/offramp/"
+    },
+    {
+      "name": "Kaze",
+      "slug": "kaze",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "apac",
+        "global"
+      ],
+      "website": "https://app.kazepay.io/pages/r?c=h0nVLP4Y",
+      "spendbaseUrl": "https://spendbase.cards/card/kaze/"
+    },
+    {
+      "name": "Swype.fun",
+      "slug": "swype-fun",
+      "network": "Visa",
+      "chain": "Base",
+      "custody": "Non-Custodial",
+      "cashback": "None",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://swype.fun",
+      "spendbaseUrl": "https://spendbase.cards/card/swype-fun/"
+    },
+    {
+      "name": "Bit2Me",
+      "slug": "bit2me",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 9%",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "exchange",
+      "regions": [
+        "europe"
+      ],
+      "website": "https://bit2me.com",
+      "spendbaseUrl": "https://spendbase.cards/card/bit2me/"
+    },
+    {
+      "name": "Verse V-Card",
+      "slug": "verse-v-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "VERSE rewards",
+      "annualFee": "€49.99",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://verse.bitcoin.com/card/",
+      "spendbaseUrl": "https://spendbase.cards/card/verse-v-card/"
+    },
+    {
+      "name": "Kolo",
+      "slug": "kolo",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://kolo.com",
+      "spendbaseUrl": "https://spendbase.cards/card/kolo/"
+    },
+    {
+      "name": "Solid Card",
+      "slug": "solid-card",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "3%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.solid.xyz/card",
+      "spendbaseUrl": "https://spendbase.cards/card/solid-card/"
+    },
+    {
+      "name": "BonkX",
+      "slug": "bonkx",
+      "network": "TBD",
+      "chain": "Solana",
+      "custody": "TBD",
+      "cashback": "Stablecoin cashback",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://bonkx.io",
+      "spendbaseUrl": "https://spendbase.cards/card/bonkx/"
+    },
+    {
+      "name": "Zebec Card",
+      "slug": "zebec-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://card.zebec.io",
+      "spendbaseUrl": "https://spendbase.cards/card/zebec-card/"
+    },
+    {
+      "name": "xPortal Card",
+      "slug": "xportal-card",
+      "network": "Visa",
+      "chain": "MultiversX",
+      "custody": "Non-Custodial",
+      "cashback": "Up to 5%",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://xportal.com/card/multiversx",
+      "spendbaseUrl": "https://spendbase.cards/card/xportal-card/"
+    },
+    {
+      "name": "Spritz Card",
+      "slug": "spritz-card",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "Spritz Points",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://www.spritz.finance",
+      "spendbaseUrl": "https://spendbase.cards/card/spritz-card/"
+    },
+    {
+      "name": "Fizen Card",
+      "slug": "fizen-card",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://fizen.io",
+      "spendbaseUrl": "https://spendbase.cards/card/fizen-card/"
+    },
+    {
+      "name": "Cardano Card",
+      "slug": "cardano-card",
+      "network": "Visa",
+      "chain": "Cardano",
+      "custody": "Custodial",
+      "cashback": "Up to 8%",
+      "annualFee": "TBD",
+      "fxFee": "Low",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.emurgo.io",
+      "spendbaseUrl": "https://spendbase.cards/card/cardano-card/"
+    },
+    {
+      "name": "KarmaCard",
+      "slug": "karmacard",
+      "network": "Mastercard",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.karmacard.io",
+      "spendbaseUrl": "https://spendbase.cards/card/karmacard/"
+    },
+    {
+      "name": "Revolut",
+      "slug": "revolut",
+      "network": "Mastercard",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "1%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "neobank",
+      "regions": [
+        "europe",
+        "americas",
+        "apac"
+      ],
+      "website": "https://www.revolut.com/cards",
+      "spendbaseUrl": "https://spendbase.cards/card/revolut/"
+    },
+    {
+      "name": "Cash App",
+      "slug": "cash-app",
+      "network": "Visa",
+      "chain": "Bitcoin",
+      "custody": "Custodial",
+      "cashback": "Boosts",
+      "annualFee": "$0",
+      "fxFee": "3%",
+      "category": "neobank",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://cash.app/card",
+      "spendbaseUrl": "https://spendbase.cards/card/cash-app/"
+    },
+    {
+      "name": "Wirex",
+      "slug": "wirex",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Hybrid",
+      "cashback": "0.5-8%",
+      "annualFee": "$0-$29.99/mo",
+      "fxFee": "0%",
+      "category": "neobank",
+      "regions": [
+        "europe",
+        "apac"
+      ],
+      "website": "https://www.wirexapp.com/",
+      "spendbaseUrl": "https://spendbase.cards/card/wirex/"
+    },
+    {
+      "name": "Nubank",
+      "slug": "nubank",
+      "network": "Mastercard",
+      "chain": "N/A",
+      "custody": "Custodial",
+      "cashback": "4% APY",
+      "annualFee": "$0",
+      "fxFee": "Varies",
+      "category": "neobank",
+      "regions": [
+        "latam",
+        "argentina"
+      ],
+      "website": "https://nubank.com.br",
+      "spendbaseUrl": "https://spendbase.cards/card/nubank/"
+    },
+    {
+      "name": "Veil",
+      "slug": "veil",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "cryptoNative",
+      "regions": [
+        "global",
+        "europe",
+        "apac"
+      ],
+      "website": "https://veil.me",
+      "spendbaseUrl": "https://spendbase.cards/card/veil/"
+    },
+    {
+      "name": "Amp Pay",
+      "slug": "amp-pay",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Custodial",
+      "cashback": "Up to 4%",
+      "annualFee": "$0",
+      "fxFee": "0%",
+      "category": "cryptoNative",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.getamppay.com",
+      "spendbaseUrl": "https://spendbase.cards/card/amp-pay/"
+    },
+    {
+      "name": "Sling Money",
+      "slug": "sling-money",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://sling.money",
+      "spendbaseUrl": "https://spendbase.cards/card/sling-money/"
+    },
+    {
+      "name": "Exodus Pay",
+      "slug": "exodus-pay",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "americas"
+      ],
+      "website": "https://exodus.com",
+      "spendbaseUrl": "https://spendbase.cards/card/exodus-pay/"
+    },
+    {
+      "name": "Moto",
+      "slug": "moto",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://www.moto-card.com",
+      "spendbaseUrl": "https://spendbase.cards/card/moto/"
+    },
+    {
+      "name": "Offgrid",
+      "slug": "offgrid",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "0%",
+      "annualFee": "TBD",
+      "fxFee": "0%",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://offgrid.cash",
+      "spendbaseUrl": "https://spendbase.cards/card/offgrid/"
+    },
+    {
+      "name": "Keyflo",
+      "slug": "keyflo",
+      "network": "Visa",
+      "chain": "Multi-chain",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://keyflo.app",
+      "spendbaseUrl": "https://spendbase.cards/card/keyflo/"
+    },
+    {
+      "name": "Mute Card",
+      "slug": "mute-card",
+      "network": "TBD",
+      "chain": "Monero",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "global"
+      ],
+      "website": "https://muteswap.com",
+      "spendbaseUrl": "https://spendbase.cards/card/mute-card/"
+    },
+    {
+      "name": "Stealf",
+      "slug": "stealf",
+      "network": "Visa",
+      "chain": "Solana",
+      "custody": "Non-Custodial",
+      "cashback": "TBD",
+      "annualFee": "TBD",
+      "fxFee": "TBD",
+      "category": "onchain",
+      "regions": [
+        "europe",
+        "global"
+      ],
+      "website": "https://stealf.xyz",
+      "spendbaseUrl": "https://spendbase.cards/card/stealf/"
+    }
+  ]
+}

@@ -1,0 +1,1656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OnchainBanks.io — The Authority on Onchain Banking</title>
+<meta name="description" content="Tracking 89+ onchain banks, crypto cards, and DeFi spending products. Compare cards by chain, custody, cashback, and more.">
+<link rel="canonical" href="https://onchainbanks.io">
+<meta property="og:title" content="OnchainBanks.io — The Authority on Onchain Banking">
+<meta property="og:description" content="Tracking 89+ onchain banks, crypto cards, and DeFi spending products. Compare cards by chain, custody, cashback, and more.">
+<meta property="og:url" content="https://onchainbanks.io">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OnchainBanks.io">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OnchainBanks.io — The Authority on Onchain Banking">
+<meta name="twitter:description" content="Tracking 89+ onchain banks, crypto cards, and DeFi spending products. Compare cards by chain, custody, cashback, and more.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏦</text></svg>">
+<script src="https://cdn.tailwindcss.com"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"OnchainBanks","url":"https://onchainbanks.io","description":"The comprehensive database of onchain banks and crypto debit cards."}
+</script>
+</head>
+<body class="bg-gray-950 text-gray-300 min-h-screen">
+<nav class="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+  <a href="/" class="flex items-center gap-2 text-white font-bold text-lg">🏦 OnchainBanks</a>
+  <div class="flex items-center gap-4 text-sm">
+    <a href="/api/banks.json" class="text-gray-400 hover:text-white transition">API</a>
+    <a href="https://spendbase.cards" target="_blank" class="text-lime-400 hover:text-lime-300 transition font-medium">Spendbase →</a>
+  </div>
+</div>
+</nav>
+
+<!-- Hero -->
+<section class="py-16 md:py-24 text-center px-4">
+  <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">The Authority on<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-cyan-400">Onchain Banking</span></h1>
+  <p class="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">Tracking 89+ onchain banks, crypto cards, and DeFi spending products</p>
+  <div class="flex flex-wrap justify-center gap-6 mb-8">
+    <div class="bg-gray-900 border border-gray-800 rounded-xl px-6 py-4 text-center">
+      <p class="text-3xl font-bold text-white">89</p>
+      <p class="text-gray-500 text-sm">Cards Tracked</p>
+    </div>
+    <div class="bg-gray-900 border border-gray-800 rounded-xl px-6 py-4 text-center">
+      <p class="text-3xl font-bold text-white">20</p>
+      <p class="text-gray-500 text-sm">Chains Supported</p>
+    </div>
+    <div class="bg-gray-900 border border-gray-800 rounded-xl px-6 py-4 text-center">
+      <p class="text-3xl font-bold text-white">58%</p>
+      <p class="text-gray-500 text-sm">Non-Custodial</p>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Banks -->
+<section class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold text-white mb-6">Featured Onchain Banks</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <a href="/bank/gnosis-pay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/b1d59672-a8b5-44f6-f9b9-859bcc27d100/public" alt="Gnosis Pay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Gnosis Pay</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Gnosis</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-5%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">€30 issuance</p></div>
+  </div>
+</a>
+<a href="/bank/phantom-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f25169b7-26a2-40f7-3227-50c5dcb49e00/public" alt="Phantom Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Phantom Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/solayer-emerald/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/25f81335-2e88-40f2-a5b6-02ffc34a6100/public" alt="Solayer Emerald" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Solayer Emerald</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$75</p></div>
+  </div>
+</a>
+<a href="/bank/kast-k-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/71022706-a9ef-47ea-d5ab-04132e69ea00/public" alt="KAST K Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KAST K Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-6%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$20/year</p></div>
+  </div>
+</a>
+<a href="/bank/ready/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/04d75186-a574-4a06-c8de-2b1428b63600/public" alt="Ready" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Ready</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Starknet</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-3%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $120</p></div>
+  </div>
+</a>
+<a href="/bank/metamask-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f22d3d68-5700-4504-8c05-24356a4e3800/public" alt="MetaMask Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">MetaMask Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Linea</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $199</p></div>
+  </div>
+</a>
+<a href="/bank/coinbase/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/6b89dd70-b6a8-42d7-a3d2-1f0946412000/public" alt="Coinbase" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Coinbase</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Base</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/nexo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/c44a2186-7c64-455b-318d-e9c3bb38a200/public" alt="Nexo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Nexo</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/plutus/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/9bde82b3-06ec-4578-41b9-29563c016f00/public" alt="Plutus" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Plutus</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Base</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">3-9%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0-€14.99/mo</p></div>
+  </div>
+</a>
+<a href="/bank/binance-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/binance-white-logo/public" alt="Binance Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Binance Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">BNB Chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/fold/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/fold-white-logo/public" alt="Fold" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Fold</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Bitcoin</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 15%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $100</p></div>
+  </div>
+</a>
+  </div>
+</section>
+
+<!-- All Banks -->
+<section class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold text-white mb-6">All 89 Onchain Banks</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <a href="/bank/crypto-com/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/5d211cf2-dce0-4d18-7530-4138739a5a00/public" alt="Crypto.com" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Crypto.com</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Cronos</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0-$4.99/mo</p></div>
+  </div>
+</a>
+<a href="/bank/coinbase/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/6b89dd70-b6a8-42d7-a3d2-1f0946412000/public" alt="Coinbase" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Coinbase</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Base</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/metamask-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f22d3d68-5700-4504-8c05-24356a4e3800/public" alt="MetaMask Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">MetaMask Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Linea</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $199</p></div>
+  </div>
+</a>
+<a href="/bank/ether-fi-cash/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/etherfi-logo-v2/public" alt="Ether.fi Cash" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Ether.fi Cash</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Scroll</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">4.08%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/gnosis-pay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/b1d59672-a8b5-44f6-f9b9-859bcc27d100/public" alt="Gnosis Pay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Gnosis Pay</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Gnosis</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-5%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">€30 issuance</p></div>
+  </div>
+</a>
+<a href="/bank/nexo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/c44a2186-7c64-455b-318d-e9c3bb38a200/public" alt="Nexo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Nexo</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/plutus/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/9bde82b3-06ec-4578-41b9-29563c016f00/public" alt="Plutus" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Plutus</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Base</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">3-9%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0-€14.99/mo</p></div>
+  </div>
+</a>
+<a href="/bank/bybit/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/195074af-48b7-4629-0e18-a67acb39dc00/public" alt="Bybit" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bybit</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Exchange</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-10%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">€10</p></div>
+  </div>
+</a>
+<a href="/bank/krak-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/01e22b78-355a-47d2-ba93-a31d27bdd600/public" alt="Krak Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Krak Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/fold/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/fold-white-logo/public" alt="Fold" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Fold</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Bitcoin</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 15%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $100</p></div>
+  </div>
+</a>
+<a href="/bank/whitebit-nova/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/e486f1cc-1112-4264-a108-f6de71a6f800/public" alt="WhiteBIT Nova" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">WhiteBIT Nova</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Exchange</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 10%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/uphold/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/uphold-white-logo/public" alt="Uphold" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Uphold</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/bitpay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/bitpay-white-logo/public" alt="BitPay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">BitPay</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/binance-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/binance-white-logo/public" alt="Binance Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Binance Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">BNB Chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/okx-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/okx-token-logo/public" alt="OKX Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">OKX Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 20%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/jupiter-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/jupiter-logo/public" alt="Jupiter Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Jupiter Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/solayer-emerald/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/25f81335-2e88-40f2-a5b6-02ffc34a6100/public" alt="Solayer Emerald" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Solayer Emerald</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$75</p></div>
+  </div>
+</a>
+<a href="/bank/kast-k-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/71022706-a9ef-47ea-d5ab-04132e69ea00/public" alt="KAST K Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KAST K Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2-6%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$20/year</p></div>
+  </div>
+</a>
+<a href="/bank/kast-x-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/71022706-a9ef-47ea-d5ab-04132e69ea00/public" alt="KAST X Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KAST X Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">5-12%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$1,000/year</p></div>
+  </div>
+</a>
+<a href="/bank/kast-founders/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/71022706-a9ef-47ea-d5ab-04132e69ea00/public" alt="KAST Founders" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KAST Founders</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 15%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$10,000 one-time</p></div>
+  </div>
+</a>
+<a href="/bank/ready/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/04d75186-a574-4a06-c8de-2b1428b63600/public" alt="Ready" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Ready</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Starknet</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-3%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0 / $120</p></div>
+  </div>
+</a>
+<a href="/bank/avici/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/avici-white-logo/public" alt="Avici" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Avici</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1.5-2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/phantom-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f25169b7-26a2-40f7-3227-50c5dcb49e00/public" alt="Phantom Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Phantom Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/solflare/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/7186322c-0375-4f01-07f5-ba5102732d00/public" alt="Solflare" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Solflare</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/holyheld/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/13fd0abc-e740-41a2-c8df-ab65c668a100/public" alt="Holyheld" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Holyheld</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">14 chains</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">€29-€199</p></div>
+  </div>
+</a>
+<a href="/bank/kosh/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/cb4c816f-8801-45be-0800-d692892fc700/public" alt="Kosh" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Kosh</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/bleap/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/67c52ffe-3960-4de9-3395-9a6a168ad200/public" alt="Bleap" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bleap</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/redotpay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/b922153a-1820-4b73-d743-e9f730d38900/public" alt="Redotpay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Redotpay</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/tria/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/391632b3-3d8f-4c34-73cc-c5dfed541a00/public" alt="Tria" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Tria</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/kontigo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/67194a7b-3019-4689-ca4a-33e604f90600/public" alt="Kontigo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Kontigo</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/orbitx-neo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f5d4447c-9f28-475d-0df0-dc931b5cda00/public" alt="OrbitX Neo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">OrbitX Neo</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$12/year</p></div>
+  </div>
+</a>
+<a href="/bank/orbitx-lux/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/f5d4447c-9f28-475d-0df0-dc931b5cda00/public" alt="OrbitX Lux" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">OrbitX Lux</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$30/year</p></div>
+  </div>
+</a>
+<a href="/bank/gemini/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/c89c9459-b0fb-47ad-5002-0545f9065d00/public" alt="Gemini" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Gemini</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">3%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/bitget-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/49ba9d86-930d-4b9b-1056-e06c7a762100/public" alt="Bitget Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bitget Card</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/bitget-premier/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/49ba9d86-930d-4b9b-1056-e06c7a762100/public" alt="Bitget Premier" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bitget Premier</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/coca/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/67889ec8-ca0a-4ee1-2222-4934458d8400/public" alt="COCA" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">COCA</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/brighty/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/2dd6a726-d935-49c8-9c3e-94a83e6e8800/public" alt="Brighty" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Brighty</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Fintech</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/cypher/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/e1a07b4c-6567-46bb-741b-f9d73c658c00/public" alt="Cypher" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Cypher</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/wayex/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/9d3f0844-983f-4183-06d3-4adaa5f74a00/public" alt="Wayex" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Wayex</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/bitpanda/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/142814a1-9f4a-470e-fc28-c3f923062400/public" alt="Bitpanda" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bitpanda</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">2%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/volet/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/volet-logo/public" alt="Volet" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Volet</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/kucoin-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/kucoin-logo/public" alt="KuCoin Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KuCoin Card</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 3%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/gate-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/gate-logo/public" alt="Gate Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Gate Card</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1-7%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/coinjar-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/coinjar-logo-v2/public" alt="CoinJar Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">CoinJar Card</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Reward Points</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/zypto/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/bb8e09eb-06af-47d4-7755-e01375b85c00/public" alt="Zypto" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Zypto</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Fintech</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/ledger/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/0c2703c2-09d1-4394-8d3f-aa84bfc95300/public" alt="Ledger" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Ledger</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/tuyo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/964b8557-fe60-47e6-43ce-9721fb9b6500/public" alt="Tuyo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Tuyo</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Fintech</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/oobit/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/26536164-83f5-4f48-69da-edc98362fb00/public" alt="Oobit" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Oobit</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Fintech</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/deblock/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/4e2b0d3a-9b15-4739-a44c-0bc39a986400/public" alt="Deblock" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Deblock</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Ethereum</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/tapx/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/2f986ed4-008c-4002-24e7-3c9f39606200/public" alt="TapX" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">TapX</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Fintech</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa/Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/fiat24/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/fiat24-white-logo/public" alt="Fiat24" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Fiat24</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Arbitrum</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/thorwallet/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/91ac4cf3-67b1-4a3c-981e-ff5298375600/public" alt="THORWallet" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">THORWallet</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">THORChain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/safepal/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/5c3a2613-d7b9-4b0d-c9b7-e232e84f1800/public" alt="SafePal" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">SafePal</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/ur/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/36e01460-9d0b-4c99-9449-1e6e4f0aaf00/public" alt="UR" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">UR</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/imtoken/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/imtoken-logo/public" alt="imToken" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">imToken</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/tokenpocket/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/099b796c-64e9-472f-8541-4385529e9800/public" alt="TokenPocket" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">TokenPocket</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/solcard/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/9c5fd97e-8520-4a6f-0b34-40c8e6207c00/public" alt="Solcard" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Solcard</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/tangem/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/80362bf8-41fe-4389-8c3a-768bc34fde00/public" alt="Tangem" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Tangem</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/exa/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/0e19a7a8-ec83-4e88-83d2-c06080489d00/public" alt="Exa" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Exa</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/xapo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/886c5cfb-eee1-4d30-c970-4b226c46c800/public" alt="Xapo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Xapo</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Bitcoin</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/avalanche-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/0ada08c0-fb9b-4386-b211-7519bc9be300/public" alt="Avalanche Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Avalanche Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Avalanche</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/hana-wallet/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/fc11a359-41bd-44e7-3f87-e9b898417c00/public" alt="Hana Wallet" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Hana Wallet</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/offramp/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/8ada2402-93a4-4da5-eaf2-c1dc538e5400/public" alt="Offramp" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Offramp</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/kaze/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/50172868-cc82-4048-4f44-9456396b6600/public" alt="Kaze" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Kaze</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/swype-fun/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/d2d9b9dc-24f4-45da-1c07-f36b709c5a00/public" alt="Swype.fun" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Swype.fun</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Base</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">None</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/bit2me/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/916eeb67-3870-4457-098f-ae0a89763700/public" alt="Bit2Me" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Bit2Me</h3>
+      <span class="text-xs text-blue-400 bg-blue-400/10 px-1.5 py-0.5 rounded">Exchange</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 9%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/verse-v-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/12efc6f8-e958-4e13-d6dd-51be91457700/public" alt="Verse V-Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Verse V-Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">VERSE rewards</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">€49.99</p></div>
+  </div>
+</a>
+<a href="/bank/kolo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/eb87aa31-66b7-493f-3c12-c10563b52b00/public" alt="Kolo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Kolo</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/solid-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/solid-card-logo/public" alt="Solid Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Solid Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">3%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/bonkx/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/bonkx-logo/public" alt="BonkX" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">BonkX</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">TBD</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Stablecoin cashback</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/zebec-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/zebec-logo/public" alt="Zebec Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Zebec Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/xportal-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/xportal-logo/public" alt="xPortal Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">xPortal Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">MultiversX</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 5%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/spritz-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/spritz-logo/public" alt="Spritz Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Spritz Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Spritz Points</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/fizen-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/fizen-logo/public" alt="Fizen Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Fizen Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/cardano-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/cardano-logo/public" alt="Cardano Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Cardano Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Cardano</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/karmacard/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/karma-logo/public" alt="KarmaCard" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">KarmaCard</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/revolut/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/revolut-white-icon/public" alt="Revolut" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Revolut</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Neobank</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">1%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/cash-app/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/cashapp-white-logo/public" alt="Cash App" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Cash App</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Neobank</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Bitcoin</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Boosts</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/wirex/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/bf2ac4c0-5dd7-489d-7a7a-38f351882b00/public" alt="Wirex" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Wirex</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Neobank</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0.5-8%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0-$29.99/mo</p></div>
+  </div>
+</a>
+<a href="/bank/nubank/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/3ed27f45-12cf-401e-96a9-ecc81f7d4e00/public" alt="Nubank" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Nubank</h3>
+      <span class="text-xs text-gray-400 bg-gray-400/10 px-1.5 py-0.5 rounded">Neobank</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Mastercard</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">N/A</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">4% APY</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/veil/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/veil-logo/public" alt="Veil" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Veil</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/amp-pay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/amppay-logo/public" alt="Amp Pay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Amp Pay</h3>
+      <span class="text-xs text-lime-400 bg-lime-400/10 px-1.5 py-0.5 rounded">Crypto-Native</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">Up to 4%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">$0</p></div>
+  </div>
+</a>
+<a href="/bank/sling-money/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/sling-logo/public" alt="Sling Money" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Sling Money</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/exodus-pay/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/exodus-logo-v2/public" alt="Exodus Pay" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Exodus Pay</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/moto/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/moto-logo/public" alt="Moto" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Moto</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/offgrid/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/offgrid-logo/public" alt="Offgrid" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Offgrid</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">0%</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/keyflo/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/6dcbea33-4090-41a4-fe62-9b9b83bc3500/public" alt="Keyflo" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Keyflo</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Multi-chain</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/mute-card/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/mute-swap-logo-v3/public" alt="Mute Card" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Mute Card</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">TBD</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Monero</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+<a href="/bank/stealf/" class="block bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition group">
+  <div class="flex items-center gap-3 mb-3">
+    <img src="https://imagedelivery.net/uYHlHjMhbvNHB1x4JZscLw/stealf-logo/public" alt="Stealf" class="w-8 h-8 rounded-lg object-contain" loading="lazy" onerror="this.style.display='none'">
+    <div>
+      <h3 class="text-white font-semibold group-hover:text-lime-400 transition">Stealf</h3>
+      <span class="text-xs text-purple-400 bg-purple-400/10 px-1.5 py-0.5 rounded">Onchain</span>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 gap-2 text-xs">
+    <div><span class="text-gray-500">Network</span><p class="text-white">Visa</p></div>
+    <div><span class="text-gray-500">Chain</span><p class="text-cyan-400">Solana</p></div>
+    <div><span class="text-gray-500">Cashback</span><p class="text-lime-400 font-semibold">TBD</p></div>
+    <div><span class="text-gray-500">Fee</span><p class="text-white">TBD</p></div>
+  </div>
+</a>
+  </div>
+</section>
+
+<!-- By Chain -->
+<section class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold text-white mb-6">Browse by Chain</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+    <a href="/chain/solana/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Solana</p>
+    <p class="text-cyan-400 text-sm">14 cards</p>
+  </a>
+<a href="/chain/ethereum/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Ethereum</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/base/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Base</p>
+    <p class="text-cyan-400 text-sm">3 cards</p>
+  </a>
+<a href="/chain/bitcoin/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Bitcoin</p>
+    <p class="text-cyan-400 text-sm">3 cards</p>
+  </a>
+<a href="/chain/scroll/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Scroll</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/starknet/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Starknet</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/gnosis/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Gnosis</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/multi-chain/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Multi-Chain</p>
+    <p class="text-cyan-400 text-sm">53 cards</p>
+  </a>
+<a href="/chain/bnb-chain/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">BNB Chain</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/cronos/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Cronos</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/linea/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Linea</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/arbitrum/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Arbitrum</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/avalanche/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Avalanche</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/cardano/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">Cardano</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+<a href="/chain/multiversx/" class="bg-gray-900 border border-gray-800 rounded-lg px-4 py-3 hover:border-cyan-500/50 transition text-center">
+    <p class="text-white font-semibold">MultiversX</p>
+    <p class="text-cyan-400 text-sm">1 card</p>
+  </a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="max-w-4xl mx-auto px-4 mb-16 text-center">
+  <div class="bg-gradient-to-r from-lime-400/10 to-cyan-400/10 border border-lime-400/20 rounded-2xl p-8">
+    <h2 class="text-2xl font-bold text-white mb-3">Looking for Full Reviews?</h2>
+    <p class="text-gray-400 mb-6">Spendbase provides detailed reviews, ratings, and interactive comparisons for every card.</p>
+    <a href="https://spendbase.cards" target="_blank" class="inline-block bg-lime-400 text-gray-900 font-bold px-8 py-3 rounded-xl hover:bg-lime-300 transition">Visit Spendbase →</a>
+  </div>
+</section>
+
+<footer class="border-t border-gray-800 mt-16 py-12 text-center">
+<div class="max-w-7xl mx-auto px-4">
+  <p class="text-gray-500 text-sm mb-2">Powered by <a href="https://spendbase.cards" class="text-lime-400 hover:text-lime-300">Spendbase</a> — Full reviews at <a href="https://spendbase.cards" class="text-lime-400 hover:text-lime-300">spendbase.cards</a></p>
+  <p class="text-gray-600 text-xs">© 2026 OnchainBanks.io · Data updated 2026-02-03</p>
+  <div class="flex justify-center gap-4 mt-4 text-xs text-gray-600">
+    <a href="/sitemap.xml" class="hover:text-gray-400">Sitemap</a>
+    <a href="/llms.txt" class="hover:text-gray-400">llms.txt</a>
+    <a href="/api/banks.json" class="hover:text-gray-400">API</a>
+  </div>
+</div>
+</footer>
+</body>
+</html>

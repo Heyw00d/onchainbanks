@@ -1,0 +1,23 @@
+# OnchainBanks.io
+> The comprehensive database of onchain banks, crypto debit cards, and DeFi spending products.
+
+## About
+OnchainBanks tracks 89+ crypto card and onchain banking products across all major chains. We provide detailed comparisons, infrastructure analysis, and industry research.
+
+## Key Data
+- 89+ onchain banking products tracked
+- Coverage across Solana, Ethereum, Base, Bitcoin, and 20+ chains
+- Custody analysis: 58% non-custodial, 42% custodial
+- Card issuer infrastructure mapping
+- Funding and investment tracking
+
+## Pages
+- /bank/[name]/ - Individual bank profiles
+- /compare/[bank1]-vs-[bank2]/ - Head-to-head comparisons
+- /chain/[chain]/ - Banks by blockchain
+
+## API
+- /api/banks.json - Public structured data for all tracked banks
+
+## Full Reviews
+For complete reviews, ratings, and interactive comparisons, visit spendbase.cards
